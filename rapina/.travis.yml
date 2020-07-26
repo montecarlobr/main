@@ -1,0 +1,20 @@
+language: go
+
+env: GO111MODULE=on
+
+matrix:
+  include:
+    - go: 1.11.x
+    - go: 1.12.x
+    - go: 1.13.x
+    - go: tip
+  allow_failures:
+    - go: tip
+
+before_script:
+  - go vet ./...
+  - diff -u <(echo -n) <(gofmt -d -s ..)
+  - cd cli
+script:
+  - go test -v ../...
+  - make

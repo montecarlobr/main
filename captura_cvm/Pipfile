@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+requests = "==2.22.0"
+tqdm = "==4.36.1"
+requests-html = "==0.10.0"
+
+[requires]
+python_version = "3.7"

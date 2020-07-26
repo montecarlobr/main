@@ -1,0 +1,40 @@
+-----------------------
+Campo: CNPJ_FUNDO
+-----------------------
+   Descrição: CNPJ do fundo
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 20
+   Scale: 0
+-----------------------
+Campo: DT_COMPTC
+-----------------------
+   Descrição: Data de competência do documento
+   Domínio: AAAA-MM-DD
+   Tipo dados: date
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: PLANO_CONTA_BALCTE
+-----------------------
+   Descrição: Plano contábil utilizado no balancete
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 5
+   Scale: 0
+-----------------------
+Campo: CD_CONTA_BALCTE
+-----------------------
+   Descrição: Código da conta
+   Domínio: Numérico
+   Tipo dados: char
+   Precisão: 8
+   Scale: 0
+-----------------------
+Campo: VL_SALDO_BALCTE
+-----------------------
+   Descrição: Saldo da conta
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 23
+   Scale: 2

@@ -1,0 +1,784 @@
+-----------------------
+Campo: CNPJ_FUNDO
+-----------------------
+   Descrição: CNPJ do fundo
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 20
+   Scale: 0
+-----------------------
+Campo: DENOM_SOCIAL
+-----------------------
+   Descrição: Denominação Social
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 100
+   Scale: 0
+-----------------------
+Campo: DT_COMPTC
+-----------------------
+   Descrição: Data de competência do documento
+   Domínio: AAAA-MM-DD
+   Tipo dados: date
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: NR_COTST_PF_PB
+-----------------------
+   Descrição: Número de clientes cotistas do tipo Pessoa Física Private Banking
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: NR_COTST_PF_VAREJO
+-----------------------
+   Descrição: Número de clientes cotistas do tipo Pessoa Física Varejo
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: NR_COTST_PJ_NAO_FINANC_PB
+-----------------------
+   Descrição: Número de clientes cotistas do tipo Pessoa Jurídica Não-Financeira Private Banking
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: NR_COTST_PJ_NAO_FINANC_VAREJO
+-----------------------
+   Descrição: Número de clientes cotistas do tipo Pessoa Jurídica Não-Financeira Varejo
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: NR_COTST_BANCO
+-----------------------
+   Descrição: Número de clientes cotistas do tipo Banco Comercial
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: NR_COTST_CORRETORA_DISTRIB
+-----------------------
+   Descrição: Número de clientes cotistas do tipo Corretora ou Distribuidora
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: NR_COTST_PJ_FINANC
+-----------------------
+   Descrição: Número de clientes cotistas do tipo Outras Pessoas Jurídicas Financeiras
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: NR_COTST_INVNR
+-----------------------
+   Descrição: Número de clientes cotistas do tipo Investidores Não Residentes
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: NR_COTST_EAPC
+-----------------------
+   Descrição: Número de clientes cotistas do tipo Entidade Aberta de Previdência Complementar
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: NR_COTST_EFPC
+-----------------------
+   Descrição: Número de clientes cotistas do tipo Entidade Fechada de Previdência Complementar
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: NR_COTST_RPPS
+-----------------------
+   Descrição: Número de clientes cotistas do tipo Regime Próprio de Previdência dos Servidores Públicos
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: NR_COTST_SEGUR
+-----------------------
+   Descrição: Número de clientes cotistas do tipo Sociedade Seguradora ou Resseguradora
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: NR_COTST_CAPITALIZ
+-----------------------
+   Descrição: Número de clientes cotistas do tipo Sociedade de Capitalização e de Arrendamento Mercantil
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: NR_COTST_FI_CLUBE
+-----------------------
+   Descrição: Número de clientes cotistas do tipo Fundos e Clubes de Investimento
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: NR_COTST_DISTRIB
+-----------------------
+   Descrição: Número de clientes cotistas de Distribuidores do Fundo
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: NR_COTST_OUTRO
+-----------------------
+   Descrição: Número de clientes cotistas de outros tipos não relacionados
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: PR_PL_COTST_PF_PB
+-----------------------
+   Descrição: Percentual do Patrimônio Líquido do fundo detido por clientes cotistas do tipo Pessoa Física Private Banking
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 4
+   Scale: 1
+-----------------------
+Campo: PR_PL_COTST_PF_VAREJO
+-----------------------
+   Descrição: Percentual do Patrimônio Líquido do fundo detido por clientes cotistas do tipo Pessoa Física Varejo
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 4
+   Scale: 1
+-----------------------
+Campo: PR_PL_COTST_PJ_NAO_FINANC_PB
+-----------------------
+   Descrição: Percentual do Patrimônio Líquido do fundo detido por clientes cotistas do tipo Pessoa Jurídica Não-Financeira Private Banking
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 4
+   Scale: 1
+-----------------------
+Campo: PR_PL_COTST_PJ_NAO_FINANC_VAREJO
+-----------------------
+   Descrição: Percentual do Patrimônio Líquido do fundo detido por clientes cotistas do tipo Pessoa Jurídica Não-Financeira Varejo
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 4
+   Scale: 1
+-----------------------
+Campo: PR_PL_COTST_BANCO
+-----------------------
+   Descrição: Percentual do Patrimônio Líquido do fundo detido por clientes cotistas do tipo Banco Comercial
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 4
+   Scale: 1
+-----------------------
+Campo: PR_PL_COTST_CORRETORA_DISTRIB
+-----------------------
+   Descrição: Percentual do Patrimônio Líquido do fundo detido por clientes cotistas do tipo Corretora ou Distribuidora
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 4
+   Scale: 1
+-----------------------
+Campo: PR_PL_COTST_PJ_FINANC
+-----------------------
+   Descrição: Percentual do Patrimônio Líquido do fundo detido por clientes cotistas do tipo Outras Pessoas Jurídicas Financeiras
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 4
+   Scale: 1
+-----------------------
+Campo: PR_PL_COTST_INVNR
+-----------------------
+   Descrição: Percentual do Patrimônio Líquido do fundo detido por clientes cotistas do tipo Investidores Não Residentes
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 4
+   Scale: 1
+-----------------------
+Campo: PR_PL_COTST_EAPC
+-----------------------
+   Descrição: Percentual do Patrimônio Líquido do fundo detido por clientes cotistas do tipo Entidade Aberta de Previdência Complementar
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 4
+   Scale: 1
+-----------------------
+Campo: PR_PL_COTST_EFPC
+-----------------------
+   Descrição: Percentual do Patrimônio Líquido do fundo detido por clientes cotistas do tipo Entidade Fechada de Previdência Complementar
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 4
+   Scale: 1
+-----------------------
+Campo: PR_PL_COTST_RPPS
+-----------------------
+   Descrição: Percentual do Patrimônio Líquido do fundo detido por clientes cotistas do tipo Regime Próprio de Previdência dos Servidores Públicos
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 4
+   Scale: 1
+-----------------------
+Campo: PR_PL_COTST_SEGUR
+-----------------------
+   Descrição: Percentual do Patrimônio Líquido do fundo detido por clientes cotistas do tipo Sociedade Seguradora ou Resseguradora
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 4
+   Scale: 1
+-----------------------
+Campo: PR_PL_COTST_CAPITALIZ
+-----------------------
+   Descrição: Percentual do Patrimônio Líquido do fundo detido por clientes cotistas do tipo Sociedade de Capitalização e de Arrendamento Mercantil
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 4
+   Scale: 1
+-----------------------
+Campo: PR_PL_COTST_FI_CLUBE
+-----------------------
+   Descrição: Percentual do Patrimônio Líquido do fundo detido por clientes cotistas do tipo Fundos e Clubes de Investimento
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 4
+   Scale: 1
+-----------------------
+Campo: PR_PL_COTST_DISTRIB
+-----------------------
+   Descrição: Percentual do Patrimônio Líquido do fundo detido por clientes cotistas de Distribuidores do Fundo
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 4
+   Scale: 1
+-----------------------
+Campo: PR_PL_COTST_OUTRO
+-----------------------
+   Descrição: Percentual do Patrimônio Líquido do fundo detido por clientes cotistas de outros tipos não relacionados
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 4
+   Scale: 1
+-----------------------
+Campo: VOTO_ADMIN_ASSEMB
+-----------------------
+   Descrição: Resumo do teor dos votos proferidos pelo administrador ou por seus representantes, nas assembleias gerais e especiais das companhias nas quais o fundo detenha participação
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 4000
+   Scale: 0
+-----------------------
+Campo: JUSTIF_VOTO_ADMIN_ASSEMB
+-----------------------
+   Descrição: Justificativa teor dos votos proferidos pelo administrador ou por seus representantes, ou as razões sumárias para a sua abstenção ou não comparecimento à assembleia geral
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 4000
+   Scale: 0
+-----------------------
+Campo: PR_VAR_CARTEIRA
+-----------------------
+   Descrição: VAR (Valor em Risco) da carteira, calculado para 21 dias úteis e 95% de confiança  (em % do PL)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 4
+-----------------------
+Campo: MOD_VAR
+-----------------------
+   Descrição: Classe de modelos utilizada para o cálculo do VAR (Valor em Risco) 
+   Domínio: Alfanumérico
+   Tipo dados: char
+   Precisão: 50
+   Scale: 0
+-----------------------
+Campo: PRAZO_CARTEIRA_TITULO
+-----------------------
+   Descrição: Prazo médio em meses da carteira de títulos do fundo, no último dia útil do mês de referência (em meses e de acordo com a metodologia regulamentada pela SRF)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 4
+-----------------------
+Campo: DELIB_ASSEMB
+-----------------------
+   Descrição: Resumo das principais deliberações aprovadas em assembleia geral de cotistas
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 4000
+   Scale: 0
+-----------------------
+Campo: VL_CONTRATO_COMPRA_DOLAR
+-----------------------
+   Descrição: Valor total dos contratos de compra de US$ liquidados no mês
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 12
+   Scale: 2
+-----------------------
+Campo: VL_CONTRATO_VENDA_DOLAR
+-----------------------
+   Descrição: Valor total dos contratos de venda de US$ liquidados no mês
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 12
+   Scale: 2
+-----------------------
+Campo: PR_VARIACAO_DIARIA_COTA
+-----------------------
+   Descrição: Variação diária percentual esperada para o valor da cota do fundo no cenário escolhido
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: FPR
+-----------------------
+   Descrição: Fator primitivo de risco (IBOVESPA, JUROS-PRE, CUPOM CAMBIAL, DOLAR, Outros) 
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 50
+   Scale: 0
+-----------------------
+Campo: CENARIO_FPR_IBOVESPA
+-----------------------
+   Descrição: Cenário utilizado (Fator primitivo de risco IBOVESPA)
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 150
+   Scale: 0
+-----------------------
+Campo: CENARIO_FPR_JUROS
+-----------------------
+   Descrição: Cenário utilizado (Fator primitivo de risco JUROS)
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 150
+   Scale: 0
+-----------------------
+Campo: CENARIO_FPR_CUPOM
+-----------------------
+   Descrição: Cenário utilizado (Fator primitivo de risco CUPOM CAMBIAL)
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 150
+   Scale: 0
+-----------------------
+Campo: CENARIO_FPR_DOLAR
+-----------------------
+   Descrição: Cenário utilizado (Fator primitivo de risco DOLAR)
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 150
+   Scale: 0
+-----------------------
+Campo: CENARIO_FPR_OUTRO
+-----------------------
+   Descrição: Cenário utilizado (Fator primitivo de risco Outros)
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 150
+   Scale: 0
+-----------------------
+Campo: PR_VARIACAO_DIARIA_COTA_ESTRESSE
+-----------------------
+   Descrição: Variação diária percentual esperada para o valor da cota do fundo no pior cenário de estresse definido pelo seu administrador
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: PR_VARIACAO_DIARIA_PL_TAXA_ANUAL
+-----------------------
+   Descrição: Variação diária percentual esperada para o patrimônio do fundo caso ocorra uma variação negativa de 1% na taxa anual de juros
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: PR_VARIACAO_DIARIA_PL_TAXA_CAMBIO
+-----------------------
+   Descrição: Variação diária percentual esperada para o patrimônio do fundo caso ocorra uma variação negativa de 1% na taxa de cambio (US$/Real)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: PR_VARIACAO_DIARIA_PL_IBOVESPA
+-----------------------
+   Descrição: Variação diária percentual esperada para o patrimônio do fundo caso ocorra uma variação negativa de 1% no preço das ações (IBOVESPA)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: FATOR_RISCO_OUTRO
+-----------------------
+   Descrição: Fator de risco dos outros tipos de fatores que não sejam juros, câmbio ou bolsa
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 400
+   Scale: 0
+-----------------------
+Campo: PR_VARIACAO_DIARIA_OUTRO
+-----------------------
+   Descrição: Variação diária percentual esperada para o patrimônio do fundo caso ocorra uma variação negativa de 1% no principal fator de risco a que o fundo está exposto, caso não seja juros, câmbio ou bolsa
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: PR_COLATERAL_DERIV
+-----------------------
+   Descrição: Valor do Colateral depositado como garantia dos contratos derivativos de balcão mantidos pelo fundo (em % do PL)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: FATOR_RISCO_NOCIONAL
+-----------------------
+   Descrição: Fator de risco nocional (IBOVESPA, JUROS-PRE, CUPOM CAMBIAL, DOLAR, Outros)
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 100
+   Scale: 0
+-----------------------
+Campo: VL_FATOR_RISCO_NOCIONAL_LONG_IBOVESPA
+-----------------------
+   Descrição: Valor do fator de risco nocional Long (Fator de risco nocional IBOVESPA)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: VL_FATOR_RISCO_NOCIONAL_LONG_JUROS
+-----------------------
+   Descrição: Valor do fator de risco nocional Long (Fator de risco nocional JUROS)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: VL_FATOR_RISCO_NOCIONAL_LONG_CUPOM
+-----------------------
+   Descrição: Valor do fator de risco nocional Long (Fator de risco nocional CUPOM CAMBIAL)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: VL_FATOR_RISCO_NOCIONAL_LONG_DOLAR
+-----------------------
+   Descrição: Valor do fator de risco nocional Long (Fator de risco nocional DOLAR)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: VL_FATOR_RISCO_NOCIONAL_LONG_OUTRO
+-----------------------
+   Descrição: Valor do fator de risco nocional Long (Fator de risco nocional Outros)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: VL_FATOR_RISCO_NOCIONAL_SHORT_IBOVESPA
+-----------------------
+   Descrição: Valor do fator de risco nocional Short (Fator de risco nocional IBOVESPA)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: VL_FATOR_RISCO_NOCIONAL_SHORT_JUROS
+-----------------------
+   Descrição: Valor do fator de risco nocional Short (Fator de risco nocional JUROS)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: VL_FATOR_RISCO_NOCIONAL_SHORT_CUPOM
+-----------------------
+   Descrição: Valor do fator de risco nocional Short (Fator de risco nocional CUPOM CAMBIAL)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: VL_FATOR_RISCO_NOCIONAL_SHORT_DOLAR
+-----------------------
+   Descrição: Valor do fator de risco nocional Short (Fator de risco nocional DOLAR)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: VL_FATOR_RISCO_NOCIONAL_SHORT_OUTRO
+-----------------------
+   Descrição: Valor do fator de risco nocional Short (Fator de risco nocional Outros)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: PF_PJ_COMITENTE_1
+-----------------------
+   Descrição: Tipo de pessoa do comitente
+   Domínio: Alfanumérico
+   Tipo dados: char
+   Precisão: 2
+   Scale: 0
+-----------------------
+Campo: CPF_CNPJ_COMITENTE_1
+-----------------------
+   Descrição: CNPJ do comitente
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 20
+   Scale: 0
+-----------------------
+Campo: COMITENTE_LIGADO_1
+-----------------------
+   Descrição: Indica se o comitente é parte relacionada ao administrador ou gestor do fundo
+   Domínio: S/N
+   Tipo dados: char
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: PR_COMITENTE_1
+-----------------------
+   Descrição: Valor da parte do comitente (em % do PL)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: PF_PJ_COMITENTE_2
+-----------------------
+   Descrição: Tipo de pessoa do comitente
+   Domínio: Alfanumérico
+   Tipo dados: char
+   Precisão: 2
+   Scale: 0
+-----------------------
+Campo: CPF_CNPJ_COMITENTE_2
+-----------------------
+   Descrição: CNPJ do comitente
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 20
+   Scale: 0
+-----------------------
+Campo: COMITENTE_LIGADO_2
+-----------------------
+   Descrição: Indica se o comitente é parte relacionada ao administrador ou gestor do fundo
+   Domínio: S/N
+   Tipo dados: char
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: PR_COMITENTE_2
+-----------------------
+   Descrição: Valor da parte do comitente (em % do PL)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: PF_PJ_COMITENTE_3
+-----------------------
+   Descrição: Tipo de pessoa do comitente
+   Domínio: Alfanumérico
+   Tipo dados: char
+   Precisão: 2
+   Scale: 0
+-----------------------
+Campo: CPF_CNPJ_COMITENTE_3
+-----------------------
+   Descrição: CNPJ do comitente
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 20
+   Scale: 0
+-----------------------
+Campo: COMITENTE_LIGADO_3
+-----------------------
+   Descrição: Indica se o comitente é parte relacionada ao administrador ou gestor do fundo
+   Domínio: S/N
+   Tipo dados: char
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: PR_COMITENTE_3
+-----------------------
+   Descrição: Valor da parte do comitente (em % do PL)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: PR_ATIVO_EMISSOR_LIGADO
+-----------------------
+   Descrição: Valor total dos ativos de emissão de partes relacionadas em estoque (em % do PL)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: PF_PJ_EMISSOR_1
+-----------------------
+   Descrição: Tipo de pessoa do emissor
+   Domínio: Alfanumérico
+   Tipo dados: char
+   Precisão: 2
+   Scale: 0
+-----------------------
+Campo: CPF_CNPJ_EMISSOR_1
+-----------------------
+   Descrição: CNPJ do emissor
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 20
+   Scale: 0
+-----------------------
+Campo: EMISSOR_LIGADO_1
+-----------------------
+   Descrição: Indica se o emissor é parte relacionada ao administrador ou gestor do fundo
+   Domínio: S/N
+   Tipo dados: char
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: PR_EMISSOR_1
+-----------------------
+   Descrição: Valor da parte do emissor (em % do PL)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: PF_PJ_EMISSOR_2
+-----------------------
+   Descrição: Tipo de pessoa do emissor
+   Domínio: Alfanumérico
+   Tipo dados: char
+   Precisão: 2
+   Scale: 0
+-----------------------
+Campo: CPF_CNPJ_EMISSOR_2
+-----------------------
+   Descrição: CNPJ do emissor
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 20
+   Scale: 0
+-----------------------
+Campo: EMISSOR_LIGADO_2
+-----------------------
+   Descrição: Indica se o emissor é parte relacionada ao administrador ou gestor do fundo
+   Domínio: S/N
+   Tipo dados: char
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: PR_EMISSOR_2
+-----------------------
+   Descrição: Valor da parte do emissor (em % do PL)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: PF_PJ_EMISSOR_3
+-----------------------
+   Descrição: Tipo de pessoa do emissor
+   Domínio: Alfanumérico
+   Tipo dados: char
+   Precisão: 2
+   Scale: 0
+-----------------------
+Campo: CPF_CNPJ_EMISSOR_3
+-----------------------
+   Descrição: CNPJ do emissor
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 20
+   Scale: 0
+-----------------------
+Campo: EMISSOR_LIGADO_3
+-----------------------
+   Descrição: Indica se o emissor é parte relacionada ao administrador ou gestor do fundo
+   Domínio: S/N
+   Tipo dados: char
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: PR_EMISSOR_3
+-----------------------
+   Descrição: Valor da parte do emissor (em % do PL)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: PR_ATIVO_CRED_PRIV
+-----------------------
+   Descrição: Valor do total de ativos de crédito privado em estoque (em % do PL) 
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: VEDAC_TAXA_PERFM
+-----------------------
+   Descrição: Indica se é vedada no regulamento a cobrança de taxa de performance quando o valor da cota do fundo for inferior ao seu valor por ocasião da última cobrança efetuada
+   Domínio: S/N
+   Tipo dados: varchar
+   Precisão: 35
+   Scale: 0
+-----------------------
+Campo: DT_COTA_TAXA_PERFM
+-----------------------
+   Descrição: Data da cota de fundo quando da última cobrança de taxa de performance efetuada
+   Domínio: AAAA-MM-DD
+   Tipo dados: date
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: VL_COTA_TAXA_PERFM
+-----------------------
+   Descrição: Valor da cota de fundo quando da última cobrança de taxa de performance efetuada
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2
+-----------------------
+Campo: VL_DIREITO_DISTRIB
+-----------------------
+   Descrição: Montante distribuído diretamente aos clientes, referente a direitos a dividendos, juros sobre capital próprio ou outros rendimentos
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 14
+   Scale: 2

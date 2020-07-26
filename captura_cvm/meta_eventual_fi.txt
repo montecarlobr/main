@@ -1,0 +1,64 @@
+-----------------------
+Campo: TP_FUNDO
+-----------------------
+   Descrição: Tipo de fundo
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 15
+   Scale: 0
+-----------------------
+Campo: CNPJ_FUNDO
+-----------------------
+   Descrição: CNPJ do fundo
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 20
+   Scale: 0
+-----------------------
+Campo: DENOM_SOCIAL
+-----------------------
+   Descrição: Denominação Social
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 100
+   Scale: 0
+-----------------------
+Campo: DT_COMPTC
+-----------------------
+   Descrição: Data de competência do documento
+   Domínio: AAAA-MM-DD
+   Tipo dados: date
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: DT_RECEB
+-----------------------
+   Descrição: Data da recebimento do documento
+   Domínio: AAAA-MM-DD
+   Tipo dados: date
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: TP_DOC
+-----------------------
+   Descrição: 
+   Domínio: 
+   Tipo dados: varchar
+   Precisão: 15
+   Scale: 0
+-----------------------
+Campo: NM_ARQ
+-----------------------
+   Descrição: 
+   Domínio: 
+   Tipo dados: varchar
+   Precisão: 100
+   Scale: 0
+-----------------------
+Campo: LINK_ARQ
+-----------------------
+   Descrição: 
+   Domínio: 
+   Tipo dados: varchar
+   Precisão: 141
+   Scale: 0

@@ -1,0 +1,64 @@
+-----------------------
+Campo: CNPJ_FUNDO
+-----------------------
+   Descrição: CNPJ do fundo
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 20
+   Scale: 0
+-----------------------
+Campo: DT_COMPTC
+-----------------------
+   Descrição: Data de competência do documento
+   Domínio: AAAA-MM-DD
+   Tipo dados: date
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: VL_TOTAL
+-----------------------
+   Descrição: Valor total da carteira
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 17
+   Scale: 2
+-----------------------
+Campo: VL_QUOTA
+-----------------------
+   Descrição: Valor da cota
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 27
+   Scale: 12
+-----------------------
+Campo: VL_PATRIM_LIQ
+-----------------------
+   Descrição: Valor do patrimônio líquido
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 17
+   Scale: 2
+-----------------------
+Campo: CAPTC_DIA
+-----------------------
+   Descrição: Captação do dia
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 17
+   Scale: 2
+-----------------------
+Campo: RESG_DIA
+-----------------------
+   Descrição: Resgate no dia
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 17
+   Scale: 2
+-----------------------
+Campo: NR_COTST
+-----------------------
+   Descrição: Número de cotistas
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0

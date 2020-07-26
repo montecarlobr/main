@@ -1,0 +1,928 @@
+-----------------------
+Campo: CNPJ_FUNDO
+-----------------------
+   Descrição: CNPJ do fundo
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 20
+   Scale: 0
+-----------------------
+Campo: DENOM_SOCIAL
+-----------------------
+   Descrição: Denominação Social
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 100
+   Scale: 0
+-----------------------
+Campo: DT_COMPTC
+-----------------------
+   Descrição: Data de competência do documento
+   Domínio: AAAA-MM-DD
+   Tipo dados: date
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: CONDOM
+-----------------------
+   Descrição: Forma de condomínio
+   Domínio: Aberto/Fechado
+   Tipo dados: varchar
+   Precisão: 7
+   Scale: 0
+-----------------------
+Campo: NEGOC_MERC
+-----------------------
+   Descrição: Indica se as cotas do fundo são admitidas à negociação em mercado organizado
+   Domínio: S/N
+   Tipo dados: varchar
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: MERCADO
+-----------------------
+   Descrição: Nome do Mercado
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 34
+   Scale: 0
+-----------------------
+Campo: TP_PRAZO
+-----------------------
+   Descrição: Tipo de prazo
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 13
+   Scale: 0
+-----------------------
+Campo: PRAZO
+-----------------------
+   Descrição: Detalhamento sobre o prazo
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 200
+   Scale: 0
+-----------------------
+Campo: PUBLICO_ALVO
+-----------------------
+   Descrição: Público-alvo
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 26
+   Scale: 0
+-----------------------
+Campo: REG_ANBIMA
+-----------------------
+   Descrição: Indica se o fundo é registrado na ANBIMA
+   Domínio: S/N
+   Tipo dados: varchar
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: CLASSE_ANBIMA
+-----------------------
+   Descrição: Classificação de Fundos regulados ANBIMA
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 100
+   Scale: 0
+-----------------------
+Campo: DISTRIB
+-----------------------
+   Descrição: Forma de distribuição
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 76
+   Scale: 0
+-----------------------
+Campo: POLIT_INVEST
+-----------------------
+   Descrição: Política de investimento
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 24
+   Scale: 0
+-----------------------
+Campo: APLIC_MAX_FUNDO_LIGADO
+-----------------------
+   Descrição: Percentual máximo de aplicação em cotas de fundos de investimento com o mesmo administrador, gestor ou empresas a eles ligadas
+   Domínio: Numérico
+   Tipo dados: decimal
+   Precisão: 15
+   Scale: 2
+-----------------------
+Campo: RESULT_CART_INCORP_PL
+-----------------------
+   Descrição: Indica se os resultados atrelados à carteira de ativos (dividendos, JSCP, etc) são incorporados ao patrimônio líquido do fundo
+   Domínio: S/N
+   Tipo dados: varchar
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: FUNDO_COTAS
+-----------------------
+   Descrição: Indica se é fundo de cotas
+   Domínio: S/N
+   Tipo dados: varchar
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: FUNDO_ESPELHO
+-----------------------
+   Descrição: Indica se é fundo-espelho
+   Domínio: S/N
+   Tipo dados: varchar
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: APLIC_MIN
+-----------------------
+   Descrição: Aplicação mínima
+   Domínio: Numérico
+   Tipo dados: decimal
+   Precisão: 15
+   Scale: 2
+-----------------------
+Campo: ATUALIZ_DIARIA_COTA
+-----------------------
+   Descrição: Indica se o valor da cota será atualizado e informado diariamente
+   Domínio: S/N
+   Tipo dados: varchar
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: PRAZO_ATUALIZ_COTA
+-----------------------
+   Descrição: Prazo de atualização do valor da cota
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 500
+   Scale: 0
+-----------------------
+Campo: COTA_EMISSAO
+-----------------------
+   Descrição: Valor da cota utilizado na emissão de cotas
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 28
+   Scale: 0
+-----------------------
+Campo: COTA_PL
+-----------------------
+   Descrição: Patrimônio Líquido base para o cálculo do valor da cota
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 53
+   Scale: 0
+-----------------------
+Campo: QT_DIA_CONVERSAO_COTA
+-----------------------
+   Descrição: Prazo em dias úteis para conversão de cotas após o pedido de resgate
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: QT_DIA_PAGTO_COTA
+-----------------------
+   Descrição: Prazo em dias úteis para pagamento de resgates após a conversão de cotas
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: QT_DIA_RESGATE_COTAS
+-----------------------
+   Descrição: Dias de carência para o resgate de cotas
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: QT_DIA_PAGTO_RESGATE
+-----------------------
+   Descrição: Prazo para o efetivo pagamento dos resgates, contado a partir da data do pedido
+   Domínio: Numérico
+   Tipo dados: int
+   Precisão: 10
+   Scale: 0
+-----------------------
+Campo: TP_DIA_PAGTO_RESGATE
+-----------------------
+   Descrição: Tipo de prazo para o efetivo pagamento dos resgates
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 13
+   Scale: 0
+-----------------------
+Campo: TAXA_SAIDA_PAGTO_RESGATE
+-----------------------
+   Descrição: Indica se, para o efetivo pagamento dos resgates, há cobrança de taxa de saída
+   Domínio: S/N
+   Tipo dados: varchar
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: TAXA_ADM
+-----------------------
+   Descrição: Taxa de administração
+   Domínio: Numérico
+   Tipo dados: decimal
+   Precisão: 15
+   Scale: 6
+-----------------------
+Campo: TAXA_CUSTODIA_MAX
+-----------------------
+   Descrição: Taxa máxima de custódia
+   Domínio: Numérico
+   Tipo dados: decimal
+   Precisão: 15
+   Scale: 6
+-----------------------
+Campo: EXISTE_TAXA_PERFM
+-----------------------
+   Descrição: Indica se o fundo cobra taxa de performance
+   Domínio: S/N
+   Tipo dados: varchar
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: TAXA_PERFM
+-----------------------
+   Descrição: Taxa de performance
+   Domínio: Alfanumérico
+   Tipo dados: numeric
+   Precisão: 27
+   Scale: 12
+-----------------------
+Campo: PARAM_TAXA_PERFM
+-----------------------
+   Descrição: Parâmetro utilizado para cobrança de taxa de performance
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 50
+   Scale: 0
+-----------------------
+Campo: PR_INDICE_REFER_TAXA_PERFM
+-----------------------
+   Descrição: Percentual do Índice de Referência (Taxa de performance)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 27
+   Scale: 12
+-----------------------
+Campo: VL_CUPOM
+-----------------------
+   Descrição: Valor do Cupom
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 27
+   Scale: 12
+-----------------------
+Campo: CALC_TAXA_PERFM
+-----------------------
+   Descrição: Método de cálculo da taxa de performance
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 7
+   Scale: 0
+-----------------------
+Campo: INF_TAXA_PERFM
+-----------------------
+   Descrição: Informações Adicionais (Taxa de performance)
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 400
+   Scale: 0
+-----------------------
+Campo: EXISTE_TAXA_INGRESSO
+-----------------------
+   Descrição: Indica se o fundo cobra taxa de ingresso
+   Domínio: S/N
+   Tipo dados: varchar
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: TAXA_INGRESSO_REAL
+-----------------------
+   Descrição: Taxa de ingresso (Real)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 27
+   Scale: 12
+-----------------------
+Campo: TAXA_INGRESSO_PR
+-----------------------
+   Descrição: Taxa de ingresso (Percentagem)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 27
+   Scale: 12
+-----------------------
+Campo: EXISTE_TAXA_SAIDA
+-----------------------
+   Descrição: Indica se o fundo cobra taxa de saída
+   Domínio: S/N
+   Tipo dados: varchar
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: TAXA_SAIDA_REAL
+-----------------------
+   Descrição: Taxa de saída (Real)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 27
+   Scale: 12
+-----------------------
+Campo: TAXA_SAIDA_PR
+-----------------------
+   Descrição: Taxa de saída (Percentagem)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 27
+   Scale: 12
+-----------------------
+Campo: OPER_DERIV
+-----------------------
+   Descrição: Indica se o fundo pode realizar operações com derivativos
+   Domínio: S/N
+   Tipo dados: varchar
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: FINALIDADE_OPER_DERIV
+-----------------------
+   Descrição: Finalidade das operações com derivativos
+   Domínio: Alfanumérico
+   Tipo dados: varchar
+   Precisão: 11
+   Scale: 0
+-----------------------
+Campo: OPER_VL_SUPERIOR_PL
+-----------------------
+   Descrição: Indica se o fundo pode realizar operações em valor superior ao seu patrimônio líquido
+   Domínio: S/N
+   Tipo dados: varchar
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: FATOR_OPER_VL_SUPERIOR_PL
+-----------------------
+   Descrição: Fator limite para o valor total das operações, em relação ao patrimônio líquido
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 6
+   Scale: 2
+-----------------------
+Campo: CONTRAP_LIGADO
+-----------------------
+   Descrição: Indica se o regulamento permite que, em mercado sem contraparte central, o fundo tenha como contraparte o administrador, gestor, fundos de investimento por eles administrados ou geridos, conforme o caso, ou pessoas ligadas
+   Domínio: S/N
+   Tipo dados: varchar
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: INVEST_EXTERIOR
+-----------------------
+   Descrição: Indica se o fundo pode realizar investimentos no exterior
+   Domínio: S/N
+   Tipo dados: varchar
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: APLIC_MAX_ATIVO_EXTERIOR
+-----------------------
+   Descrição: Limite máximo, em relação ao Patrimônio Líquido do fundo, que pode ser aplicado em ativos no exterior
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 7
+   Scale: 2
+-----------------------
+Campo: ATIVO_CRED_PRIV
+-----------------------
+   Descrição: Indica se o regulamento permite que o fundo adquira ativos de crédito privado
+   Domínio: S/N
+   Tipo dados: varchar
+   Precisão: 1
+   Scale: 0
+-----------------------
+Campo: APLIC_MAX_ATIVO_CRED_PRIV
+-----------------------
+   Descrição: Limite máximo, em relação ao Patrimônio Líquido do fundo, que pode ser aplicado em ativos de crédito privado
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 27
+   Scale: 12
+-----------------------
+Campo: PR_INSTITUICAO_FINANC_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para emissor do tipo Instituições Financeiras
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_INSTITUICAO_FINANC_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para emissor do tipo Instituições Financeiras
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_CIA_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para emissor do tipo Companhias Abertas
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_CIA_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para emissor do tipo Companhias Abertas
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_FI_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para emissor do tipo Fundos de Investimento
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_FI_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para emissor do tipo Fundos de Investimento
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_UNIAO_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para emissor do tipo União Federal
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_UNIAO_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para emissor do tipo União Federal
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_ADMIN_GESTOR_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para emissor do tipo Administrador, Gestor ou Pessoas Ligadas
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_ADMIN_GESTOR_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para emissor do tipo Administrador, Gestor ou Pessoas Ligadas
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_EMISSOR_OUTRO_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para emissor do tipo Outros (art. 102, IV, ICVM 555)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_EMISSOR_OUTRO_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para emissor do tipo Outros (art. 102, IV, ICVM 555)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FI_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FI 555
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FI_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FI 555
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FIC_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FIC 555
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FIC_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FIC 555
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FI_QUALIF_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FI 555 para investidores qualificados
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FI_QUALIF_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FI 555 para investidores qualificados
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FIC_QUALIF_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FIC 555 para investidores qualificados
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FIC_QUALIF_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FIC 555 para investidores qualificados
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FI_PROF_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FI 555 para investidores profissionais
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FI_PROF_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FI 555 para investidores profissionais
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FIC_PROF_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FIC 555 para investidores profissionais
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FIC_PROF_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FIC 555 para investidores profissionais
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FII_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FII
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FII_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FII
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FIDC_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FIDC
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FIDC_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FIDC
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FICFIDC_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FICFIDC
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FICFIDC_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FICFIDC
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FIDC_NP_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FIDC-NP
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FIDC_NP_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FIDC-NP
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FICFIDC_NP_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FICFIDC-NP
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FICFIDC_NP_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FICFIDC-NP
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_ETF_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de Fundos de Índice de Mercado (ETF)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_ETF_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de Fundos de Índice de Mercado (ETF)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_CRI_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo CRI
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_CRI_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo CRI
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_TITPUB_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Títulos públicos e operações compromissadas lastreadas nestes títulos
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_TITPUB_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Títulos públicos e operações compromissadas lastreadas nestes títulos
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_OURO_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Ouro
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_OURO_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Ouro
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_TIT_INSTITUICAO_FINANC_BACEN_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Títulos de emissão ou coobrigação de instituição financeira autorizada a funcionar pelo Banco Central do Brasil e operações compromissadas lastreadas nestes títulos
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_TIT_INSTITUICAO_FINANC_BACEN_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Títulos de emissão ou coobrigação de instituição financeira autorizada a funcionar pelo Banco Central do Brasil e operações compromissadas lastreadas nestes títulos
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_VLMOB_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Valores mobiliários previstos na alínea (d) do inciso III do art. 103 da ICVM 555
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_VLMOB_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Valores mobiliários previstos na alínea (d) do inciso III do art. 103 da ICVM 555
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_ACAO_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Ações ou Certificados de Depósito de Ações
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_ACAO_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Ações ou Certificados de Depósito de Ações
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_DEBENTURE_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Debêntures
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_DEBENTURE_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Debêntures
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_NP_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Notas promissórias
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_NP_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Notas promissórias
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COMPROM_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Operações compromissadas lastreadas em títulos de crédito privado
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COMPROM_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Operações compromissadas lastreadas em títulos de crédito privado
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_DERIV_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Derivativos
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_DERIV_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Derivativos
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_ATIVO_OUTRO_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Outros (art. 103, I, j, ICVM 555)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_ATIVO_OUTRO_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Outros (art. 103, I, j, ICVM 555)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FMIEE_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FMIEE (art. 109, §8º, ICVM 555)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FMIEE_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FMIEE (art. 109, §8º, ICVM 555)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FIP_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FIP (art. 109, §8º, ICVM 555)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FIP_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FIP (art. 109, §8º, ICVM 555)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FICFIP_MIN
+-----------------------
+   Descrição: Exposição mínima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FICFIP (art. 109, §8º, ICVM 555)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
+-----------------------
+Campo: PR_COTA_FICFIP_MAX
+-----------------------
+   Descrição: Exposição máxima (em percentual) permitida pelo Regulamento para ativo do tipo Cotas de FICFIP (art. 109, §8º, ICVM 555)
+   Domínio: Numérico
+   Tipo dados: numeric
+   Precisão: 10
+   Scale: 2
