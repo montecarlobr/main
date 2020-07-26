@@ -1,0 +1,113 @@
+source("R/functions.R")
+
+
+#'Return calendar events from Trading Economics API
+#'@import jsonlite
+#'@import httr
+#'@importFrom utils URLencode
+#'
+#'
+#'@export getCalendarData
+#'
+#'
+#'@param country string or list.
+#'String to get data for one country. List of strings to get data for
+#'several countries. For example, country = c('United States', 'Australia').
+#'@param indicator   string or list.
+#'String  to get data for one category. List of strings to get data for several calendar events.
+#'For example, category = 'GDP Growth Rate' or
+#' category = c('Exports', 'Imports').
+#'@param initDate string with format: YYYY-MM-DD.
+#'For example: '2011-01-01'.
+#'@param endDate string with format: YYYY-MM-DD.
+#'@param outType string.
+#''df' for data frame,
+#''lst'(default) for list.
+#'
+#' @return Return list or data frame of calendar events.
+#'@section Notes:
+#'All parameters are optional. When not supplying parameters, data for all countries and indicators will be provided.
+#'Without credentials, only sample data is returned.
+#'@seealso \code{\link{getMarketsData}}, \code{\link{getForecastData}}, \code{\link{getHistoricalData}} and \code{\link{getIndicatorData}}
+#'@examples
+#'\dontrun{getCalendarData(), getCalendarData(id= c('174108','160025','160030'), outType = 'df'), getCalendarData(ticker= c('IJCUSA','SPAINFACORD','BAHRAININFNRATE'))
+#' getCalendarData(country = 'United States', indicator = 'initial jobless claims',initDate = '2016-12-01', endDate = '2017-02-25')
+#'getCalendarData(country = c('United States', 'India'),indicator = c('Composite Pmi', 'Bankruptcies'), initDate = '2011-01-01', endDate = '2016-01-01')
+#'getCalendarData(ticker= c('IJCUSA','SPAINFACORD','BAHRAININFNRATE'), initDate = '2018-01-01', endDate = '2018-03-01')
+#'getCalendarData(country = 'United States', indicator = 'initial jobless claims')
+#'getCalendarData(country = 'United States')
+#'getCalendarData(indicator = 'initial jobless claims')
+#'   }
+#'
+
+getCalendarData <- function(country = NULL, indicator = NULL, id = NULL, ticker = NULL, initDate= NULL, endDate= NULL, outType = NULL){
+  base <- "https://api.tradingeconomics.com/calendar"
+
+  df_final = data.frame()
+
+
+  if (is.null(country) & is.null(indicator)){
+    url <- base
+  } else if (is.null(country) & !is.null(indicator)){
+    url <- paste(base, 'country/all', 'indicator',
+                      paste(indicator, collapse = ','), sep = '/')
+  } else if (!is.null(country) & is.null(indicator)){
+    url <- paste(base, 'country',
+                 paste(country, collapse = ','), sep = '/')
+  } else {
+    url <- paste(base, 'country', paste(country, collapse = ','), 'indicator',
+                 paste(indicator, collapse = ','), sep = '/')
+  }
+  if (!is.null(id)){
+    url <- paste(base, "calendarid", paste(id, collapse = ','), sep = '/')
+  }
+  if (!is.null(ticker)){
+    url <- paste(base, "ticker", paste(ticker, collapse = ','), sep = '/')
+
+  }
+
+  if (!is.null(initDate) & !is.null(endDate)){
+    dateCheck(initDate)
+    dateCheck(endDate)
+    if (initDate > Sys.Date()) stop('Incorrect time period initDate!')
+    if (initDate > endDate) stop('Incorrect time period initDate - endDate!')
+    url <- paste(url, paste(initDate, endDate, sep = '/'), sep = '/')
+  } else if (!is.null(initDate)){
+    dateCheck(initDate)
+    if (initDate > Sys.Date()) stop('Incorrect time period initDate!')
+    url <- paste(base, "All", collapse = NULL, sep = '/')
+
+  }else{
+    url <- url
+
+  }
+
+  print(url)
+
+  url <- paste(url, '?c=', apiKey, sep = '')
+  url <- URLencode(url)
+  request <- GET(url)
+
+  checkRequestStatus(http_status(request)$message)
+
+  webResults <- do.call(rbind.data.frame, checkForNull(content(request)))
+
+  df_final = rbind(df_final, webResults)
+  Sys.sleep(0.5)
+
+
+  if (is.null(outType)| identical(outType, 'lst')){
+    df_final <- split(df_final , f =  paste(df_final$Country,df_final$Category))
+  } else if (identical(outType, 'df')){
+    df_final$Date <- strptime(as.character(df_final$Date),'%Y-%m-%dT%H:%M')
+    df_final <- df_final[order(df_final$Date),]
+    rownames(df_final) <- 1:nrow(df_final)
+  } else {
+    stop('output_type options : df for data frame, lst(default) for list by country and indicator')
+  }
+
+  return(df_final)
+}
+
+
+
